@@ -104,8 +104,8 @@ environments:
             username: root
             password: root
             url: jdbc:mariadb://localhost:3306/grails-unproxied-datasource?serverTimezone=UTC
-            logSql: true
-            formatSql: true
+            properties:
+              defaultAutoCommit: false
     test:
         dataSource:
             dbCreate: update
