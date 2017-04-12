@@ -46,6 +46,9 @@ dependencies {
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    runtime 'org.mariadb.jdbc:mariadb-java-client:1.5.9'
+
 }
 
 bootRun {
